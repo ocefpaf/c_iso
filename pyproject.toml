@@ -1,3 +1,6 @@
+# python -m build --wheel . --outdir dist
+# abi3audit *.whl --assume-minimum-abi3 3.11 --summary --verbose --strict
+
 [build-system]
 requires = [
   "setuptools>=41.2",
